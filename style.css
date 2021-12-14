@@ -1,0 +1,242 @@
+/*=================================
+Author: Saifur Rahman
+Updated: 07 July, 2021
+Notes: Hand Coded for SaifurPro
+===================================*/
+
+/*------Start Base CSS------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+body,
+html {
+  height: 100%;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/*------End Base CSS------*/
+
+section {
+  max-width: 435px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.logo {
+  width: 245px;
+  margin: 140px auto;
+}
+.title {
+  padding: 25px;
+  text-align: center;
+}
+.title h3 {
+  font-size: 24px;
+  color: #707070;
+  font-weight: 500;
+}
+.title p {
+  font-size: 22px;
+  color: #7c7979;
+}
+a.btn-1 {
+  margin: auto;
+  margin-bottom:160px;
+  margin-top:120px;
+  display: block;
+  background: #3196AA;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+.opo-logo {
+  width: 120px;
+  margin: 120px auto;
+}
+.dec {
+  padding: 10px;
+  color: #707070;
+}
+.dec span {
+  margin-right: 10px;
+}
+.dec p {
+  font-size: 22px;
+  padding:30px;
+  font-weight: 500;
+  color:#707070;
+}
+.dec h4 {
+  font-size: 22px;
+  padding-left: 10px;
+  color: #787474;
+}
+.dec strong {
+  font-size: 20px;
+  font-weight: 400;
+}
+.opinion a {
+  display: block;
+  background: #fff;
+  border: 1px solid #333;
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 50px;
+  color: #726c6c;
+  font-size:20px;
+  font-weight: 500;
+}
+a.btn1 {
+  margin-top: 120px;
+}
+a.btn2 {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+section.bg {
+  background-image:url('assets/img/bg.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  border-color:#707070;
+}
+a.btn-1.nagitive{
+  padding:10px;
+  width:75%;
+}
+.text-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+  color: #707070;
+}
+
+.text-title strong {
+  font-size: 20px;
+  color: #0A605C;
+  font-weight: 400;
+  display:inline-block;
+  margin-top:-5px;
+}
+.contact {
+  position: relative;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-bottom:100px;
+}
+p strong {
+  position: absolute;
+  left: 44px;
+  top: 0;
+  color: #0A605C;
+  font-weight: 400;
+  padding-right:70px;
+}
+p span svg {
+  margin-left: 5px;
+}
+.contact-page h3 {
+  text-align: center;
+  color: #0A605C;
+}
+.contact-form {
+  margin: 130px 0;
+}
+
+.contact-form input {
+  display: block;
+  width: 80%;
+  margin: 25px auto;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #ddd;
+  font-size: 24px;
+  color: #0A605C;
+}
+.contact-form input[type="submit"] {
+  border:none;
+  margin-bottom:120px;
+  margin-top:160px;
+  background: #3196AA;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius:15px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  -ms-border-radius:15px;
+  -o-border-radius:15px;
+}
+.content {
+  color: #0A605C;
+  font-size: 21px;
+}
+
+.content h3 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.content p {
+  padding: 10px 30px 20px;
+}
+.footer {
+  padding-left: 29px;
+  margin: 100px 0;
+  font-size: 20px;
+  position: relative;
+  padding-right: 50px;
+}
+
+.footer span {
+  position: absolute;
+  left: 10px;
+}
